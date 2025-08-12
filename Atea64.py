@@ -44,7 +44,6 @@ root.clipboard_get()
 root.update_idletasks()
 root.iconbitmap("logo_Atea64.ico")
 
-#Скачивай видео с YouTube и других видеохостингов
 name_programm = ctk.CTkLabel(root, text="Atea64", font=("Days Regular", 36))
 name_programm.place(x=250, y=50)
 slogan_programm = ctk.CTkLabel(root, text="Скачивай видео с YouTube и других видеохостингов", font=("Days Regular", 12))
@@ -60,4 +59,5 @@ dropdown.place(x=20, y=350)
 dropdown_button = ctk.CTkButton(root, text="применить изменения", command=change_theme, font=("Days Regular", 12))
 dropdown_button.place(x=20, y=400)
 dropdown.set("System")
+
 root.mainloop()
