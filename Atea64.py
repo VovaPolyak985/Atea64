@@ -42,7 +42,6 @@ root.geometry("640x480")
 root.resizable(False, False)
 root.clipboard_get()
 root.update_idletasks()
-root.iconbitmap("logo_Atea64.ico")
 
 name_programm = ctk.CTkLabel(root, text="Atea64", font=("Days Regular", 36))
 name_programm.place(x=250, y=50)
@@ -61,3 +60,4 @@ dropdown_button.place(x=20, y=400)
 dropdown.set("System")
 
 root.mainloop()
+
